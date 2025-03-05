@@ -49,7 +49,7 @@ export default function BuyTokens() {
         throw new Error('No active session');
       }
 
-      const response = await fetch('https://ydvvokjdlqpgpasrnwtd.supabase.co/functions/v1/create-payment-intent', {
+      const response = await fetch('https://wfrqutsdobwancfanerr.supabase.co/functions/v1/create-payment-intent', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

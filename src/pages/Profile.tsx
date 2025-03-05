@@ -74,7 +74,7 @@ export default function Profile() {
           }
 
           // Verify the payment
-          const response = await fetch('https://ydvvokjdlqpgpasrnwtd.supabase.co/functions/v1/verify-payment', {
+          const response = await fetch('https://wfrqutsdobwancfanerr.supabase.co/functions/v1/verify-payment', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
